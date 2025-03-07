@@ -71,6 +71,16 @@ header h1 a {
     margin-bottom: 10px;
 }
 
+.voir-plus {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: #0066cc;
+    margin-left: 5px;
+}
+.voir-plus:visited {
+    color: #0066cc;
+}
+
 .categories-list li a {
     text-decoration: none;
     color: #0066cc;

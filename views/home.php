@@ -18,7 +18,10 @@
                                 <?php echo htmlspecialchars($article['titre']); ?>
                             </a>
                         </h2>
-                        <p><?php echo htmlspecialchars(substr($article['contenu'], 0, 200)); ?>...</p>
+                        <p>
+                            <?php echo htmlspecialchars(substr($article['contenu'], 0, 200)); ?>
+                            <a href="index.php?route=article&id=<?php echo $article['id']; ?>" class="voir-plus">Voir plus</a>
+                        </p>
                         <div class="article-meta">
                             <span class="category">Catégorie: <?php echo htmlspecialchars($article['categorie_libelle']); ?></span>
                         </div>

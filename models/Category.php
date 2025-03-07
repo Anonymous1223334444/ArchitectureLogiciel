@@ -1,5 +1,5 @@
 <?php
-require_once 'config/Database.php';
+require_once 'models/config/Database.php';
 
 class Category {
     // Database connection and table
